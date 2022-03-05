@@ -56,6 +56,12 @@ print(num1)
 num2 = {1: '3', 2: '4'}
 num2.pop(1)
 print(num2)
+num3 = {1: '5', 2: '6'}
+num3.clear()
+print(num3)
+num4 = {1: '7', 2: '8'}
+del num4
+
 print("###################################################")
 # In operation
 print("this is program12")
@@ -89,5 +95,4 @@ dict5 = {3: 'three ', 4: 'four'}
 print(dict4.update(dict5))
 print(dict4)
 print(dict5)
-
 print("###################################################")
