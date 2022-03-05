@@ -65,3 +65,10 @@ car.setdefault("color", "White")
 car.setdefault("country")
 print(car)
 
+#####################################################
+
+dict4 = {1: 'one ', 2: 'two'}
+dict5 = {3: 'three ', 4: 'four'}
+print(dict4.update(dict5))
+print(dict4)
+print(dict5)
